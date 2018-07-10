@@ -43,3 +43,7 @@ In this method we implemented loss and optimizer operations. Cross entropy loss 
 #### train_nn
 We train the neural network and print out the loss in this method. 
 
+## Results
+
+Following is the output of images after we trained our Segmentation model for 40 epochs on a GPU machine.
+
