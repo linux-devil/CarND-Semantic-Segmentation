@@ -20,5 +20,23 @@ SciPy
 ## Dataset
 Project is using Kitti [Road Dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php).
 
+## Code Description
 
+#### Main.py
+Code is implemented in Main.py module which is responsible for various task such as layer extraction , implementing layers for FCN and training the neural network. 
+
+#### load_vgg
+In this method changes have been made to load specific layer tesnors which will be further used for implementing the layers for segmentation. Here we use "get_tensor_by_name" method and extract following layer tensors:
+1. layer3_out
+2. layer4_out
+3. layer7_out
+
+#### layers
+In this method we create fully convolutional netowrk using upsampling and skip connections. Method returns the final output layer.
+
+#### optimize
+In this method we implemented loss and optimizer operations. Cross entropy loss is calculated using softmax_cross_entropy_with_logits after creating logits and loading correct labels.
+
+#### train_nn
+We train the neural network and print out the loss in this method. 
 
