@@ -44,6 +44,13 @@ In this method we implemented loss and optimizer operations. Cross entropy loss 
 We train the neural network and print out the loss in this method. 
 
 ## Results
-
 Following is the output of images after we trained our Segmentation model for 40 epochs on a GPU machine.
 
+
+## Future Work
+Over the period of time we have seen evolution in the Segmentation architecture. FCN is one of the first segmentation architecture but new architecture such as DeepLab and PSP networks are really promising and worth implementing. 
+
+## References
+[A guide to convolution arithmetic for deep
+learning](https://arxiv.org/pdf/1603.07285.pdf)
+[Guide to Semantic Segmentation with Deep Learning](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review#fcn)
