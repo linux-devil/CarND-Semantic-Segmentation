@@ -53,4 +53,5 @@ Over the period of time we have seen evolution in the Segmentation architecture.
 ## References
 [A guide to convolution arithmetic for deep
 learning](https://arxiv.org/pdf/1603.07285.pdf)
+
 [Guide to Semantic Segmentation with Deep Learning](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review#fcn)
