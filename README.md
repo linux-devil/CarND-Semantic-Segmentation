@@ -45,6 +45,10 @@ We train the neural network and print out the loss in this method.
 
 ## Results
 Following is the output of road images after training FCN based Segmentation model for 40 epochs on a GPU machine.
+![Inference1](https://github.com/linux-devil/CarND-Semantic-Segmentation/blob/master/inference1.jpg "Inference1")
+![Inference2](https://github.com/linux-devil/CarND-Semantic-Segmentation/blob/master/inference2.jpg "Inference2")
+![Inference3](https://github.com/linux-devil/CarND-Semantic-Segmentation/blob/master/inference3.jpg "Inference3")
+![Inference4](https://github.com/linux-devil/CarND-Semantic-Segmentation/blob/master/inference4.jpg "Inference4")
 
 
 ## Future Work
